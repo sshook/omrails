@@ -1,0 +1,31 @@
+$baseFontFamily: Oxygen;
+@import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$btnPrimaryBackground: green;
+$navbarBackgroundHighlight: white;
+$navbarBackground: white;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+@import 'bootstrap-responsive';
+
+/* this will remove nav bar shadow
+.navbar-inner {
+
+	@include box-shadow(none !important);
+	border: 0;
+}
+*/
+
+.footer {
+
+	Margin-top: 50px;
+	color: $grayLight;
+	a{
+		color: $gray;
+	}
+}
